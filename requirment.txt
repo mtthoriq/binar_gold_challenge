@@ -1,0 +1,6 @@
+from flask import Flask, request, jsonify
+from flasgger import Swagger, LazyString, LazyJSONEncoder, swag_from
+from unidecode import unidecode
+import re
+import pandas as pd
+import sqlite3
